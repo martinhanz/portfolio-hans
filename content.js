@@ -40,6 +40,15 @@
         details: ['Mempelajari struktur dan user interface website', 'Praktik membuat website menggunakan WordPress']
       }
     ],
+    catalog: [
+      {
+        preview: 'https://drive.google.com/file/d/1Ays_0OWdj9AqB83tlpvGqQx7_p6XoMRC/preview',
+        title: 'Day 1 Soal 3 Advanced',
+        subtitle: 'Custom Report Sales Order Material: VA03',
+        description: 'List Material yg diorder oleh customer kepada sales.',
+        reportUrl: 'http://45.127.134.174:8000/ides/display?~transaction=ZTIN_AA103'
+      }
+    ],
     thesis: {
       title: 'Analisis Prediksi Jumlah Produksi Sarung Tangan Menggunakan Logika Fuzzy Sugeno',
       organization: 'Studi Kasus: PT Medisafe Technologies · September 2023',
@@ -66,6 +75,10 @@
     return '<div class="cert"><div class="cert-date">' + item.date + '</div><div><div class="cert-title">' + item.title + '</div><div class="cert-org">' + item.organization + '</div><ul>' + listItems(item.details) + '</ul></div></div>';
   }
 
+  function catalogItem(item) {
+    return '<li class="catalog-item"><iframe src="' + item.preview + '" height="200" title="' + item.title + ' preview" loading="lazy" allow="autoplay"></iframe><div class="catalog-content"><div class="catalog-title">' + item.title + '</div><div class="catalog-sub">' + item.subtitle + '</div><div class="catalog-desc">' + item.description + '</div><a href="' + item.reportUrl + '" class="btn-link" target="_blank" rel="noopener">View Report</a></div></li>';
+  }
+
   function chips(items) {
     return items.map(function (item) { return '<div class="chip">' + item + '</div>'; }).join('');
   }
@@ -90,6 +103,7 @@
   document.querySelector('.summary-text').innerHTML = profile.summary;
   document.querySelector('#pendidikan .section-body > div:last-child').innerHTML = '<div class="edu-row"><div><div class="edu-name">' + profile.education.name + '</div><div class="edu-sub">' + profile.education.program + '</div></div><div class="edu-meta">' + profile.education.period + '<br>IPK <span class="ipk-badge">' + profile.education.gpa + '</span></div></div>';
   document.querySelector('#sertifikasi .section-body > div:last-child').innerHTML = profile.certifications.map(certification).join('');
+  document.querySelector('#katalog .catalog-list').innerHTML = profile.catalog.map(catalogItem).join('');
   document.querySelector('#tugas-akhir .section-body > div:last-child').innerHTML = '<div class="thesis-card"><h3>' + profile.thesis.title + '</h3><div class="thesis-org">' + profile.thesis.organization + '</div><ul>' + listItems(profile.thesis.details) + '</ul></div>';
   document.querySelector('#keterampilan .section-body > div:last-child').innerHTML = '<div class="skill-panel"><div class="skill-group"><div class="g-label">Hard skills</div><div class="chip-row">' + chips(profile.skills.hard) + '</div></div><div class="skill-group"><div class="g-label">Soft skills</div><div class="chip-row">' + chips(profile.skills.soft) + '</div></div><div class="skill-group"><div class="g-label">Bahasa</div><div class="lang-row">' + profile.skills.languages.map(function (language) { return '<div class="lang-item"><div class="lv">' + language[0] + '</div><div class="lp">' + language[1] + '</div></div>'; }).join('') + '</div></div></div>';
   document.querySelector('#kontak .section-body > .contact-grid').innerHTML = contactItem(profile.contact.whatsapp, icons.whatsapp) + contactItem(profile.contact.email, icons.email) + contactItem(profile.contact.linkedin, icons.linkedin);
