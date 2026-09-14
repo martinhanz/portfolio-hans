@@ -6,7 +6,7 @@
   var profile = {
     brand: 'MARTIN HANS RAMAPUTRA <span>SIMAREMARE</span>',
     heroTitle: 'Analisis data &amp; sistem ERP, disusun dengan logika yang rapi.',
-    heroLead: 'Lulusan Ilmu Komputer dari Medan dengan fokus praktis pada SAP ABAP dan pemodelan prediktif berbasis Python — terbiasa mengubah data mentah menjadi keputusan yang bisa dipertanggungjawabkan.',
+    heroLead: 'Lulusan Ilmu Komputer dari Universitas Negeri Medan dengan fokus praktis pada SAP ABAP dan pemodelan data berbasis Python — terbiasa mengubah data mentah menjadi keputusan yang bisa dipertanggungjawabkan.',
     heroFields: [
       ['Lokasi', 'Medan, Sumut', ''],
       ['IPK', '3,46 / 4,00', 'amber'],
