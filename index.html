@@ -196,6 +196,8 @@
 
   /* -------- katalog report -------- */
   .catalog-card{
+    min-width:0;
+    overflow:hidden;
     border:1px solid var(--line);
     padding:10px;
     background:rgba(255,255,255,0.5);
@@ -218,13 +220,15 @@
     list-style:none;
     display:flex;
     overflow-x:auto;
+    width:100%;
+    min-width:0;
     gap:16px;
     margin:0;
     padding:0 0 10px;
     scrollbar-color:var(--slate) transparent;
   }
   .catalog-item{
-    flex:0 0 300px;
+    flex:0 0 270px;
     padding:14px;
     border:1px solid var(--line);
     background:rgba(255,255,255,0.5);
@@ -343,7 +347,7 @@
     .lang-row{flex-wrap:wrap;gap:24px;}
     .thesis-card{padding:22px;}
     .catalog-card{padding:10px;}
-    .catalog-item{flex-basis:280px;}
+    .catalog-item{flex-basis:260px;}
 
     nav.links{
       display:none;
