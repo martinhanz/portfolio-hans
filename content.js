@@ -118,7 +118,8 @@
     contact: {
       whatsapp: { label: 'WhatsApp', href: 'https://wa.me/6282164733127', value: '+62 821-6473-3127', external: true },
       email: { label: 'Email', href: 'mailto:martinhans200@gmail.com', value: 'martinhans200@gmail.com' },
-      linkedin: { label: 'LinkedIn', href: 'https://www.linkedin.com/in/martin-hans-r-simaremare/', value: 'martin-hans-r-simaremare', external: true }
+      linkedin: { label: 'LinkedIn', href: 'https://www.linkedin.com/in/martin-hans-r-simaremare/', value: 'martin-hans-r-simaremare', external: true },
+      instagram: { label: 'Instagram', href: 'https://www.instagram.com/martinhanssss/', value: 'martinhanssss', external: true }
     },
     footer: 'Martin Hans — Medan, Sumatera Utara, Indonesia'
   };
