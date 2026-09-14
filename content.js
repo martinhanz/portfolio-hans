@@ -18,7 +18,7 @@
       name: 'Universitas Negeri Medan',
       program: 'S1 Ilmu Komputer',
       period: 'Agustus 2019 – September 2023',
-      gpa: '3,46'
+      gpa: '3,46/4.00'
     },
     certifications: [
       {
