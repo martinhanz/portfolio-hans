@@ -113,7 +113,7 @@
     skills: {
       hard: ['Python (Dasar &amp; Data Processing)', 'SAP ABAP (Reporting)', 'Pemodelan Matematis', 'Analisis Kuantitatif'],
       soft: ['Berpikir Analitis', 'Pemecahan Masalah Kompleks', 'Perhatian terhadap Detail', 'Logika Terstruktur'],
-      languages: [['Indonesia', 'Lancar'], ['Inggris', 'Conversational']]
+      languages: [['Indonesia', 'Menengah'], ['Inggris', 'Dasar']]
     },
     contact: {
       whatsapp: { label: 'WhatsApp', href: 'https://wa.me/6282164733127', value: '+62 821-6473-3127', external: true },
