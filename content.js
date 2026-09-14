@@ -42,11 +42,67 @@
     ],
     catalog: [
       {
+        preview: 'https://drive.google.com/file/d/1NFw1wtwz8tVaECsVY42nb7gSaQcj9x4e/preview',
+        title: 'Day 1 Soal 1 Advanced',
+        subtitle: 'Custom Report Customer: VD03',
+        description: "Pengolahan data rekap customer beserta 'sales area data' yg diambil dari tabel master data.",
+        reportUrl: 'http://45.127.134.174:8000/ides/display?~transaction=ZTIN_AA101'
+      },
+      {
+        preview: 'https://drive.google.com/file/d/1Riivlut4OpPWJoSkEibnZB9VE-ZrjJdT/preview',
+        title: 'Day 1 Soal 2 Advanced',
+        subtitle: 'Custom Report: MM03',
+        description: 'Rekap data material customer yg berelasi dengan sales area data.',
+        reportUrl: 'http://45.127.134.174:8000/ides/display?~transaction=ZTIN_AA102'
+      },
+      {
         preview: 'https://drive.google.com/file/d/1Ays_0OWdj9AqB83tlpvGqQx7_p6XoMRC/preview',
         title: 'Day 1 Soal 3 Advanced',
         subtitle: 'Custom Report Sales Order Material: VA03',
         description: 'List Material yg diorder oleh customer kepada sales.',
         reportUrl: 'http://45.127.134.174:8000/ides/display?~transaction=ZTIN_AA103'
+      },
+      {
+        preview: 'https://drive.google.com/file/d/1S8RaF--ej_QigA-gLSv594ZLl3As_pRB/preview',
+        title: 'Day 2 Soal 1 Advanced',
+        subtitle: 'Custom report pengelompokan data',
+        description: 'Report total Harga Purchasing Order berdasarkan Material grup beserta Mata Uang.',
+        reportUrl: 'http://45.127.134.174:8000/ides/display?~transaction=ZTIN_AA201'
+      },
+      {
+        preview: 'https://drive.google.com/file/d/1H6F-Tc8yTQtgp81Egqh-tfhwgPNFFxqs/preview',
+        title: 'Day 2 Soal 2 Advanced',
+        subtitle: 'Custom Report Pengelompokan Data',
+        description: 'Report total material beserta satuan barang berdasarkan material grup yg dikelompokkan berdasarkan bulan.',
+        reportUrl: 'http://45.127.134.174:8000/ides/display?~transaction=ZTIN_AA202'
+      },
+      {
+        preview: 'https://drive.google.com/file/d/1THT9p3qt_VtPatEwWdfi5Z53wGDjr_kQ/preview',
+        title: 'Project Simulation (Smartforms)',
+        subtitle: 'Custom Report Tcode VA03',
+        description: 'Report mencetak Surat Jalan untuk supir agar barang yang akan dikirimkan berizin resmi dari perusahaan.',
+        reportUrl: 'http://45.127.134.174:8000/ides/display?~transaction=ZFORMSJ'
+      },
+      {
+        preview: 'https://drive.google.com/file/d/1svZes2MbaZ4N5kd5ZkWMVO-0hxJrS7Vx/preview',
+        title: 'Project Simulation (ALV to Smartforms)',
+        subtitle: 'Custom Report Tcode PA20',
+        description: 'Report mencetak kartu keluarga HR tcode PA20 yg diambil dari tabel master data PA0001 dan detail member dari tabel PA0021 infotype family member.',
+        reportUrl: 'http://45.127.134.174:8000/ides/display?~transaction=ZTIN_FORMS'
+      },
+      {
+        preview: 'https://drive.google.com/file/d/1Nf7QA42jZnumT9rXJQnVYpv4TC8gdCYG/preview',
+        title: 'Project Simulation (HTML WEB GUI)',
+        subtitle: 'Custom Report Tcode MM60',
+        description: 'Report HTML yg berasal dari spesifikasi Display Materials List (MM60), bisa langsung dijalankan di Browser.',
+        reportUrl: 'http://45.127.134.174:8000/ides/display?~transaction=ZWEBGUIMM60'
+      },
+      {
+        preview: 'https://drive.google.com/file/d/13PJaTUHY_3InJrlZboCkSijj6bLe3Okt/preview',
+        title: 'Project Simulation (ALV Class Advanced)',
+        subtitle: 'Custom Report Inspection Point',
+        description: 'Report ALV menggunakan Class Event Receiver untuk menampilkan Header dan Detail spec: Inspeksi Material.',
+        reportUrl: 'http://45.127.134.174:8000/ides/display?~transaction=ZTINPSM3'
       }
     ],
     thesis: {
