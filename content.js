@@ -9,7 +9,7 @@
     heroLead: 'Lulusan Ilmu Komputer dari Universitas Negeri Medan dengan fokus praktis pada SAP ABAP dan pemodelan data berbasis Python — terbiasa mengubah data mentah menjadi keputusan yang bisa dipertanggungjawabkan.',
     heroFields: [
       ['Lokasi', 'Medan, Sumut', ''],
-      ['IPK', '3,46 / 4,00', 'amber'],
+      ['IPK', '3,46 / 4,00', ''],
       ['Fokus', 'SAP ABAP', ''],
       ['Bahasa', 'ID · EN', '']
     ],
